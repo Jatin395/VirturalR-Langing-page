@@ -15,11 +15,11 @@ export default function Pricing() {
     return (
         <>
 
-            <motion.div className="flex flex-col justify-center items-center bg-dark text-white gap-12 pt-12" id='price'>
+            <motion.div className="flex flex-col justify-center items-center bg-dark text-white gap-12 overflow-x-hidden pt-12" id='price'>
                 
                <motion.h1 initial='hidden' whileInView={'visible'} variants={TopVarient} viewport={{once : true}} className='text-6xl'>Pricing</motion.h1>
 
-                <motion.div className="flex justify-center items-center flex-wrap bg-dark p-12 gap-12 text-white">
+                <motion.div className="flex justify-center items-center flex-wrap bg-dark md:p-12 gap-12 text-white">
 
                     <motion.div initial='hidden' whileInView={'visible'} variants={TopVarient} viewport={{once : true}} className="w-80 h-[450px] border border-gray-800 rounded-lg shadow-2xl text-center p-6">
 

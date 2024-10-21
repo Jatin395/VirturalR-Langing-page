@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <div className="bg-dark text-white p-4 flex items-center justify-around flex-wrap h-96">
+      <div className="bg-dark text-white p-4 flex items-center justify-around flex-wrap">
 
         <div className="flex flex-col gap-4">
 
@@ -43,7 +43,7 @@ function Footer() {
             <h1 className='text-xl mb-4'>Stay up date</h1>
             <div className="">
             <input type='text' className='h-12 rounded-md p-4 text-black' placeholder='Your email address'></input>
-            <i class="ri-send-plane-fill text-2xl bg-white p-3 rounded-full text-black ml-4"></i>
+            <i class="m-4 ri-send-plane-fill text-2xl bg-white p-3 rounded-full text-black ml-4"></i>
             </div>
         </div>
 

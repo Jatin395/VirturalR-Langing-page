@@ -32,7 +32,7 @@ export default function Testimonials() {
 
         <motion.div className="flex flex-wrap justify-center items-center gap-12" initial='hidden' whileInView={'visible'} variants={ConVarient} viewport={{once :true}}>
 
-          <motion.div className="w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4" variants={TopVarient}>
+          <motion.div className="w-72 md:w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4" variants={TopVarient}>
 
             <motion.h1 className='text-xl'>{testimonials[0].text}</motion.h1>
 
@@ -47,7 +47,7 @@ export default function Testimonials() {
             </motion.div>
           </motion.div>
 
-          <motion.div variants={TopVarient} className="w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
+          <motion.div variants={TopVarient} className="w-72 md:w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
 
             <motion.h1 className='text-xl'>{testimonials[1].text}</motion.h1>
 
@@ -62,7 +62,7 @@ export default function Testimonials() {
             </motion.div>
           </motion.div>
 
-          <motion.div variants={TopVarient} className="w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
+          <motion.div variants={TopVarient} className="w-72 md:w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
 
             <motion.h1 className='text-xl'>{testimonials[2].text}</motion.h1>
 
@@ -77,7 +77,7 @@ export default function Testimonials() {
             </motion.div>
           </motion.div>
 
-          <motion.div variants={TopVarient} className="w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
+          <motion.div variants={TopVarient} className="w-72 md:w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
 
             <motion.h1 className='text-xl'>{testimonials[3].text}</motion.h1>
 
@@ -92,7 +92,7 @@ export default function Testimonials() {
             </motion.div>
           </motion.div>
 
-          <motion.div variants={TopVarient} className="w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
+          <motion.div variants={TopVarient} className="w-72 md:w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
 
             <motion.h1 className='text-xl'>{testimonials[4].text}</motion.h1>
 
@@ -107,7 +107,7 @@ export default function Testimonials() {
             </motion.div>
           </motion.div>
 
-          <motion.div variants={TopVarient} className="w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
+          <motion.div variants={TopVarient} className="w-72 md:w-96 h-80 border flex flex-col justify-evenly border-gray-800 rounded-lg shadow-xl text-center p-6 m-4">
 
             <motion.h1 className='text-xl'>{testimonials[5].text}</motion.h1>
 

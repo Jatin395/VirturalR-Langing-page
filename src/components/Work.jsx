@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 export default function Work() {
     
     const LeftVarient = {
-        hidden :{opacity : 0, x : -100},
+        hidden :{opacity : 0, x : -10},
         visible : {opacity : 1, x :0,
             transition : {
                 duration : 0.4,
@@ -15,7 +15,7 @@ export default function Work() {
         }
     }
     const RightVarient = {
-        hidden :{opacity : 0, x : 100},
+        hidden :{opacity : 0, x : 10},
         visible : {opacity : 1, x :0,
             transition : {
                 duration : 0.4,
@@ -24,7 +24,7 @@ export default function Work() {
         }
     }
     const TopVarient = {
-        hidden : {opacity : 0 , y:100},
+        hidden : {opacity : 0 , y:10},
         visible : {opacity : 1, y:0,
             transition : {
                 duration : 0.8,

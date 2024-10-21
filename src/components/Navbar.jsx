@@ -43,7 +43,7 @@ function Navbar() {
                 </div>
 
                 {/* moblie view */}
-                <div className="hidden fixed inset-0 bg-slate-900 h-96 z-10 md:hidden p-4 m-4" id='mob_v' ref={mob_v}>
+                <div className="hidden fixed  w-80 bg-slate-900 h-96 z-10 md:hidden top-0 m-4" id='mob_v' ref={mob_v}>
 
                     <div className="flex justify-around">
 
